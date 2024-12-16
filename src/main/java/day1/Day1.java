@@ -27,6 +27,7 @@ public class Day1 {
             leftList.add(left);
             rightList.add(right);
         }
+        scanner.close();
         Collections.sort(leftList);
         Collections.sort(rightList);
     }
